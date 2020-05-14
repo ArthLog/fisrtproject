@@ -1,0 +1,56 @@
+body {
+  background: black;
+  background-size:auto 100vh;
+}
+   h1 {
+  color: green;
+}
+    h2 {
+  color: green;
+}
+      p {
+  color: green;
+}
+/*aqui começa o menu do nav*/
+
+.menu  a{
+  text-decoration:none;
+}
+.menu  a:hover{
+  text-decoration:underline;
+  background-color:#002300;
+}  
+
+.menu li{
+  float: left;
+}
+.menu ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.menu li a{
+  display: block;
+  color: green;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: arial;
+  font-weight:bold;
+}
+/*aqui termina o menu nav*/ 
+.site-subtitle{
+  font-style:italic;
+}  
+
+
+ img {
+  opacity: 0.5;
+}
+
+ img:hover {
+  opacity: 1.0;
+}
+
